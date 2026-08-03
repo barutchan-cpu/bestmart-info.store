@@ -118,128 +118,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><script src="https://escoladasunhasprofissionais.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.5" defer=""></script><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-config="{&quot;config&quot;:{&quot;blacklistIframeSrc&quot;:[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//www.google.com/recaptcha/enterprise/anchor&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;,&quot;//www.ukrnafta.com/data/map/&quot;,&quot;//maps.google.com/maps&quot;,&quot;//www.openstreetmap.org/export/embed.html&quot;,&quot;//www.google.com/maps/d/u/3/embed&quot;,&quot;//itm.ebaydesc.com/itmdesc&quot;,&quot;//books.google.com/books&quot;,&quot;//embed.podcasts.apple.com&quot;,&quot;//www.paypal.com/smartchat&quot;,&quot;//www.centurylink.com/assets/includes/common/sfChatiFrame.html&quot;,&quot;//macmillan-prod-gen.ada.support/embed&quot;,&quot;//macmillan-prod-gen.ada.support/chat&quot;,&quot;//ctl-consumer.my.site.com/&quot;,&quot;//id.gov.ua&quot;,&quot;//elevenlabs.io/player/index.html&quot;,&quot;//oauth.telegram.org/embed/&quot;,&quot;//onetalk.alibaba.com&quot;,&quot;//js.stripe.com/v3/&quot;,&quot;//www.podbean.com/&quot;,&quot;//t.me/&quot;,&quot;//ordinals.com/preview&quot;,&quot;tv.pandavideo.com.br/&quot;],&quot;whitelistDomainsForPostBody&quot;:[&quot;youtube.com&quot;]},&quot;id&quot;:null}" data-dynamic-id="0806ae47-d739-450d-bb1f-4240dbf262d4" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js"></script><!--data-adsx-custom-script:header:start-->// add this before event code to all pages where PII data postback is expected and appropriate 
-ttq.identify({
-	"email": "<hashed_email_address>", // string. The email of the customer if available. It must be hashed with SHA-256 on the client side.
-	"phone_number": "<hashed_phone_number>", // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
-	"external_id": "<hashed_external_id>" // string. Any unique identifier, such as loyalty membership IDs, user IDs, and external cookie IDs.It must be hashed with SHA-256 on the client side.
-});
-
-ttq.track('ViewContent', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('AddToWishlist', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('Search', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>", // string. The 4217 currency code. Example: "USD".
-	"search_string": "<search_keywords>" // string. The word or phrase used to search. Example: "SAVE10COUPON".
-});
-
-ttq.track('AddPaymentInfo', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('AddToCart', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('InitiateCheckout', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('PlaceAnOrder', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('CompleteRegistration', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});
-
-ttq.track('Purchase', {
-	"contents": [
-		{
-			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
-			"content_type": "<content_type>", // string. Either product or product_group.
-			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
-		}
-	],
-	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
-	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
-});</content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></search_keywords></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></hashed_external_id></hashed_phone_number></hashed_email_address><!--data-adsx-custom-script:header:end--></head>
-<body class="wp-singular page-template page-template-elementor_canvas page page-id-498 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-498 e--ua-blink e--ua-webkit" data-elementor-device-mode="tablet" bis_status="ok" bis_frame_id="517">
-			<div data-elementor-type="wp-page" data-elementor-id="498" class="elementor elementor-498" data-elementor-post-type="page">
-				<div class="elementor-element elementor-element-40810cc7 e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="40810cc7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-ea255c0 e-con-full e-flex e-con e-child" data-id="ea255c0" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-31d37be6 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="31d37be6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><b>Torne-se uma Nail Designer Especialista e Viva de Alongamentos com Agenda Cheia </b><b><span style="color: #f9dcb5;">– <span style="color: #ffcc99;">Perfeito para Iniciantes e Profissionais!</span></span></b></p>								</div>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><script src="https://escoladasunhasprofissionais.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.5" defer=""></script><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-config="{&quot;config&quot;:{&quot;blacklistIframeSrc&quot;:[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//www.google.com/recaptcha/enterprise/anchor&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;,&quot;//www.ukrnafta.com/data/map/&quot;,&quot;//maps.google.com/maps&quot;,&quot;//www.openstreetmap.org/export/embed.html&quot;,&quot;//www.google.com/maps/d/u/3/embed&quot;,&quot;//itm.ebaydesc.com/itmdesc&quot;,&quot;//books.google.com/books&quot;,&quot;//embed.podcasts.apple.com&quot;,&quot;//www.paypal.com/smartchat&quot;,&quot;//www.centurylink.com/assets/includes/common/sfChatiFrame.html&quot;,&quot;//macmillan-prod-gen.ada.support/embed&quot;,&quot;//macmillan-prod-gen.ada.support/chat&quot;,&quot;//ctl-consumer.my.site.com/&quot;,&quot;//id.gov.ua&quot;,&quot;//elevenlabs.io/player/index.html&quot;,&quot;//oauth.telegram.org/embed/&quot;,&quot;//onetalk.alibaba.com&quot;,&quot;//js.stripe.com/v3/&quot;,&quot;//www.podbean.com/&quot;,&quot;//t.me/&quot;,&quot;//ordinals.com/preview&quot;,&quot;tv.pandavideo.com.br/&quot;],&quot;whitelistDomainsForPostBody&quot;:[&quot;youtube.com&quot;]},&quot;id&quot;:null}" data-dynamic-id="0806ae47-d739-450d-bb1f-4240dbf262d4" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js"></script><!--data-adsx-custom-script:header:start--></head><body class="wp-singular page-template page-template-elementor_canvas page page-id-498 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-498 e--ua-blink e--ua-webkit" data-elementor-device-mode="tablet" bis_status="ok" bis_frame_id="563"><div data-elementor-type="wp-page" data-elementor-id="498" class="elementor elementor-498" data-elementor-post-type="page"><div class="elementor-element elementor-element-40810cc7 e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="40810cc7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"><div class="e-con-inner"><div class="elementor-element elementor-element-ea255c0 e-con-full e-flex e-con e-child" data-id="ea255c0" data-element_type="container" data-e-type="container"><div class="elementor-element elementor-element-31d37be6 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="31d37be6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"><p><b>Torne-se uma Nail Designer Especialista e Viva de Alongamentos com Agenda Cheia </b><b><span style="color: #f9dcb5;">– <span style="color: #ffcc99;">Perfeito para Iniciantes e Profissionais!</span></span></b></p>								</div>
 				<div class="elementor-element elementor-element-6f7e452e elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="6f7e452e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>Torne-se uma Nail Designer especialista em alongamentos, desejada na sua região, com <span style="color: #ccffcc;" class="">agenda cheia e renda de 2 até 7 salários por mês trabalhando</span> com seus próprios atendimentos.</p>								</div>
 				<div class="elementor-element elementor-element-3caa0ae8 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-html" data-id="3caa0ae8" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
@@ -1504,4 +1383,118 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 
 
 <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><script src="https://cdn.jsdelivr.net/gh/victorkinder/cdn/tracker_all_min_1.js" defer=""></script><script>const platformAdId='sub1';window.__PRESSELL_SEQUENCE_KEYS__=["sub2","sub3","sub4","sub5"];window.__PRESSELL_KEY_MAP__={gclid:platformAdId,msclkid:platformAdId,fbclid:platformAdId};</script>
-</body></html>
+<!--data-adsx-custom-script:footer:start-->// add this before event code to all pages where PII data postback is expected and appropriate 
+ttq.identify({
+	"email": "<hashed_email_address>", // string. The email of the customer if available. It must be hashed with SHA-256 on the client side.
+	"phone_number": "<hashed_phone_number>", // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+	"external_id": "<hashed_external_id>" // string. Any unique identifier, such as loyalty membership IDs, user IDs, and external cookie IDs.It must be hashed with SHA-256 on the client side.
+});
+
+ttq.track('ViewContent', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('AddToWishlist', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('Search', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>", // string. The 4217 currency code. Example: "USD".
+	"search_string": "<search_keywords>" // string. The word or phrase used to search. Example: "SAVE10COUPON".
+});
+
+ttq.track('AddPaymentInfo', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('AddToCart', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('InitiateCheckout', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('PlaceAnOrder', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('CompleteRegistration', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});
+
+ttq.track('Purchase', {
+	"contents": [
+		{
+			"content_id": "<content_identifier>", // string. ID of the product. Example: "1077218".
+			"content_type": "<content_type>", // string. Either product or product_group.
+			"content_name": "<content_name>" // string. The name of the page or product. Example: "shirt".
+		}
+	],
+	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
+	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
+});</content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></search_keywords></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></content_currency></content_value></content_name></content_type></content_identifier></hashed_external_id></hashed_phone_number></hashed_email_address><!--data-adsx-custom-script:footer:end--></body></html>
